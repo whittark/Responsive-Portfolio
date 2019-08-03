@@ -1,0 +1,178 @@
+/* Homework Week 1: Wireframe */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Added dark gray background color */
+body {
+  background-color: rgb(54, 54, 58);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Light gray, inline-block, width to 80%, padding adjust*/
+header {
+  padding: 20px;
+  margin-bottom: 12px;
+  color:  rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+  width: 80%;
+  align-self: center;
+  display: inline-block;
+}
+
+nav {
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color:  rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+  width: 80%;
+  align-self: center;
+  display: inline-block;
+}
+
+section {
+  padding: 21px;
+  margin-bottom: 15px;
+  margin-left: 155px;
+  margin-right: 10px;
+  color:  rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+  width: 45%;
+  height: 290px;
+  float: left;
+}
+
+aside {
+  padding: 21px;
+  margin-bottom: 15px;
+  margin-right: 158px;
+  border-right: 0px;
+  color:  rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+  width: 34%;
+  height: 290px;
+  float: right;
+}
+
+/* Light gray, inline-block, width to 80%, padding to 30px*/
+footer {
+  padding: 40px;
+  margin-bottom: 80px;
+  margin-top: 5px;
+  border: 10px;
+  color:  rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+  border-top: 235px;
+  width: 80%;
+  display: inline-block;
+}
+
+#art1 {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  height: 195px;
+  color: rgb(188, 185, 190);
+  background:  rgb(54, 54, 58);
+}
+
+#leftdiv1 {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+}
+
+#leftdiv2 {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(54, 54, 58);
+  background: rgb(188, 185, 190);
+}
+
+/*#left {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  border-right: 0px;
+  color: #ccc;
+  background: rgb(66, 66, 66);
+  float: left;
+  width: 32%;
+  
+}
+
+#middle {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  color: #ccc;
+  background: #888;
+  display: inline-block;
+  width: 36%;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+#right {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  border-right: 0px;
+  color: #ccc;
+  background: rgb(66, 66, 66);
+  float: right;
+  width: 32%;
+  }
+
+#full {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #666;
+  background: #eee;
+  width: 98%;
+  height: 225px;
+  position: absolute;
+
+}
+
+#division {
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  width: 99%;
+  color: #333;
+  background: #6ea3da;
+  position: center;
+  z-index: -1;
+}
+
+aside {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #333;
+  width: 30%;
+  height: 175px;
+  background: rgb(247, 245, 245);
+  position: absolute;
+  z-index: 1;
+}*/
+
+

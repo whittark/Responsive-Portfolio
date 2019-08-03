@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+
+    <!-- Meta tag bootstrap recommends for their responsive elements-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!--fontawesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- My CSS-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--JavaScript-->
+    <script>/* Toggles between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }   
+
+    </script>
+    <title>Contact</title>
+</head>
+
+<!--Responsive navigation bar-->
+
+<body>
+    <navbar>
+        <div class="topnav" id="myTopnav">
+            <a href="contact.html">Contact</a>
+            <a href="portfolio.html">Gallery</a>
+            <a href="index.html">About</a>
+            <div id="padhome">
+                <a href="index.html" class="active">Whitney Tarkington</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </navbar>
+
+    <section id="pagehead">
+
+        <!--Page header with splash image-->
+
+        <div class="bgimage">
+
+
+            <img src="assets/images/portfolio-contact2.png" alt="factory" style="width:100%;">
+            
+                <div class="centered">DROP</div>
+                
+                <div class="centered2" style="font-family: Montserrat;">A</div>
+    
+                <div class="centered3">LINE</div>
+
+
+        </div>
+    
+    </section>
+
+    <!--Wrapper with content-->
+    
+    <div class="wrapper">
+
+        <div class="row justify-content-center">
+
+            <!--Large column for the first bio card -->
+            <div class="column-xl-12">
+
+                <div class="card" style="width: 40rem; margin-left: auto; margin-right: auto;">
+        
+                  <div class="card-body" style="height: 25rem; margin-left: auto; margin-right: auto;">
+        
+                        <h5 class="card-title" style="text-align: center;">Pen Me!</h5>
+        
+                        <hr class="rule">
+        
+                            <div class="row">
+        
+                                <div class="col-12-lg">
+        
+                                    <div class="form-group">
+                                        <label for="usr">Name:</label>
+                                        <input type="text" class="form-control" id="usr">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="pwd">Email:</label>
+                                        <input type="text" class="form-control" style="margin-bottom:20px;" id="pwd">
+                                    </div>
+        
+                                    <div class="form-group">
+                                        <label for="comment">Comment:</label>
+                                            <br>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="submit" value="Submit">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                </div>   
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="column-xl-12">
+                <span class="ltspan"></span>
+            </div>
+        
+    <div class="footer">
+
+        <p style="color: rgb(114, 112, 112); font-size: 9pt;">© Copyright</p>
+        
+    </div>
+
+</body>
+
+
+</html>
